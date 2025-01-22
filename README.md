@@ -8,8 +8,10 @@ You can install **MiniDayjs** via npm:
 
 ```bash
 npm install mini-dayjs
+```
 
 Alternatively, if you're using Yarn:
 
 ```bash
 yarn add mini-dayjs
+```
