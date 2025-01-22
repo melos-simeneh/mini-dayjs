@@ -24,6 +24,7 @@ Here's how you can start using MiniDayjs in your project:
 
 You can create a MiniDayjs instance for the current date or a specific date:
 
+```javascript
 const dayjs = require('mini-dayjs');
 
 // Create a new instance for the current date
@@ -34,3 +35,4 @@ const specificDate = dayjs('2025-01-01');
 
 console.log(now.format('YYYY-MM-DD'));  // Output: Current date in "YYYY-MM-DD" format
 console.log(specificDate.format('YYYY-MM-DD'));  // Output: 2025-01-01
+```
