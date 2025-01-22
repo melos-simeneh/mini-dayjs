@@ -36,3 +36,20 @@ const specificDate = dayjs('2025-01-01');
 console.log(now.format('YYYY-MM-DD'));  // Output: Current date in "YYYY-MM-DD" format
 console.log(specificDate.format('YYYY-MM-DD'));  // Output: 2025-01-01
 ```
+
+### Date Formatting
+
+You can format dates using the format() method. Here's an example:
+
+```javascript
+const formattedDate = dayjs('2025-01-01').format('MMMM DD, YYYY');
+console.log(formattedDate);  // Output: January 01, 2025
+```
+
+#### Supported Format Tokens
+
+- ● YYYY – Full year (e.g., 2025)
+- ● YY – Short year (e.g., 25)
+- ● MMMM – Full month name (e.g., January)
+- ● MMM – Abbreviated month name (e.g., Jan)
+- ● DD – Day of the month (e.g., 01)
