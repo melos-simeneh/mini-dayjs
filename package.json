@@ -1,0 +1,37 @@
+{
+  "name": "mini-dayjs",
+  "version": "1.0.0",
+  "description": "A lightweight date manipulation library similar to Dayjs.",
+  "main": "dist/mini-dayjs.cjs.js",
+  "module": "dist/mini-dayjs.esm.js",
+  "browser": "dist/mini-dayjs.min.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "jest": "^29.7.0",
+    "rollup": "^4.31.0"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "manipulation",
+    "lightweight",
+    "javascript"
+  ],
+  "author": "MELOS SIMENEH MULU",
+  "license": "MIT",
+  "files": [
+    "dist/mini-dayjs.cjs.js",
+    "dist/mini-dayjs.esm.js",
+    "dist/mini-dayjs.min.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
