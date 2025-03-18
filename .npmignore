@@ -1,8 +1,6 @@
 # Ignore source files (if not needed in the npm package)
 src/
 
-# Ignore Rollup config
-rollup.config.js
 
 # Ignore the node_modules directory (already excluded by default)
 node_modules/

@@ -1,10 +1,8 @@
 {
   "name": "mini-dayjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight date manipulation library similar to Dayjs.",
-  "main": "dist/mini-dayjs.cjs.js",
-  "module": "dist/mini-dayjs.esm.js",
-  "browser": "dist/mini-dayjs.min.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "jest",
     "build": "rollup -c"
@@ -27,11 +25,13 @@
   ],
   "author": "MELOS SIMENEH MULU",
   "license": "MIT",
-  "files": [
-    "dist/mini-dayjs.cjs.js",
-    "dist/mini-dayjs.esm.js",
-    "dist/mini-dayjs.min.js",
-    "README.md",
-    "LICENSE"
-  ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melos-simeneh/qenjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/melos-simeneh/qenjs/issues"
+  },
+  "homepage": "https://github.com/melos-simeneh/qenjs#readme"
+
 }
